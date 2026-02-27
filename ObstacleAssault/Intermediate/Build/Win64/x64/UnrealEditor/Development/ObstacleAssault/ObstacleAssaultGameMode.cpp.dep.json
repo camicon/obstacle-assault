@@ -1,17 +1,28 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\unreal\\udemy\\obstacleassault\\source\\obstacleassault\\obstacleassaultgamemode.cpp",
+        "Source": "d:\\unreal\\udemy\\obstacle-assault\\obstacleassault\\source\\obstacleassault\\obstacleassaultgamemode.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\unreal\\udemy\\obstacleassault\\intermediate\\build\\win64\\x64\\obstacleassaulteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "PCH": "d:\\unreal\\udemy\\obstacle-assault\\obstacleassault\\intermediate\\build\\win64\\x64\\obstacleassaulteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "d:\\unreal\\udemy\\obstacleassault\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacleassault\\definitions.obstacleassault.h",
-            "d:\\unreal\\udemy\\obstacleassault\\source\\obstacleassault\\obstacleassaultgamemode.h",
-            "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
-            "d:\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
-            "d:\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
-            "d:\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-            "d:\\unreal\\udemy\\obstacleassault\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassault\\uht\\obstacleassaultgamemode.generated.h"
+            "d:\\unreal\\udemy\\obstacle-assault\\obstacleassault\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacleassault\\definitions.obstacleassault.h",
+            "d:\\unreal\\udemy\\obstacle-assault\\obstacleassault\\source\\obstacleassault\\obstacleassaultgamemode.h",
+            "d:\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\unreal\\udemy\\obstacle-assault\\obstacleassault\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassault\\uht\\obstacleassaultgamemode.generated.h",
+            "d:\\unreal\\udemy\\obstacle-assault\\obstacleassault\\source\\obstacleassault\\obstacleassaultcharacter.h",
+            "d:\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\epic games\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "d:\\epic games\\ue_5.5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\unreal\\udemy\\obstacle-assault\\obstacleassault\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacleassault\\uht\\obstacleassaultcharacter.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

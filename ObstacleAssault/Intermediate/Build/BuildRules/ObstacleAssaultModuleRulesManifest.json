@@ -1,8 +1,10 @@
 {
 	"SourceFiles": [
-		"D:\\Unreal\\Udemy\\ObstacleAssault\\Source\\ObstacleAssault\\ObstacleAssault.Build.cs",
-		"D:\\Unreal\\Udemy\\ObstacleAssault\\Source\\ObstacleAssault.Target.cs",
-		"D:\\Unreal\\Udemy\\ObstacleAssault\\Source\\ObstacleAssaultEditor.Target.cs"
+		"D:\\Unreal\\Udemy\\obstacle-assault\\ObstacleAssault\\Source\\ObstacleAssault\\ObstacleAssault.Build.cs",
+		"D:\\Unreal\\Udemy\\obstacle-assault\\ObstacleAssault\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\VisualStudioBlueprintDebuggerHelper.Build.cs",
+		"D:\\Unreal\\Udemy\\obstacle-assault\\ObstacleAssault\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\VisualStudioTools.Build.cs",
+		"D:\\Unreal\\Udemy\\obstacle-assault\\ObstacleAssault\\Source\\ObstacleAssault.Target.cs",
+		"D:\\Unreal\\Udemy\\obstacle-assault\\ObstacleAssault\\Source\\ObstacleAssaultEditor.Target.cs"
 	],
-	"EngineVersion": "5.6.1"
+	"EngineVersion": "5.5.4"
 }

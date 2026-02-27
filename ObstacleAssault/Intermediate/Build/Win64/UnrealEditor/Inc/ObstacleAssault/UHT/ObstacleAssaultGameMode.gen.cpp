@@ -5,66 +5,34 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ObstacleAssaultGameMode.h"
-
+#include "ObstacleAssault/ObstacleAssaultGameMode.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
 void EmptyLinkFunctionForGeneratedCodeObstacleAssaultGameMode() {}
 
-// ********** Begin Cross Module References ********************************************************
+// Begin Cross Module References
 ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 OBSTACLEASSAULT_API UClass* Z_Construct_UClass_AObstacleAssaultGameMode();
 OBSTACLEASSAULT_API UClass* Z_Construct_UClass_AObstacleAssaultGameMode_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ObstacleAssault();
-// ********** End Cross Module References **********************************************************
+// End Cross Module References
 
-// ********** Begin Class AObstacleAssaultGameMode *************************************************
+// Begin Class AObstacleAssaultGameMode
 void AObstacleAssaultGameMode::StaticRegisterNativesAObstacleAssaultGameMode()
 {
 }
-FClassRegistrationInfo Z_Registration_Info_UClass_AObstacleAssaultGameMode;
-UClass* AObstacleAssaultGameMode::GetPrivateStaticClass()
-{
-	using TClass = AObstacleAssaultGameMode;
-	if (!Z_Registration_Info_UClass_AObstacleAssaultGameMode.InnerSingleton)
-	{
-		GetPrivateStaticClassBody(
-			StaticPackage(),
-			TEXT("ObstacleAssaultGameMode"),
-			Z_Registration_Info_UClass_AObstacleAssaultGameMode.InnerSingleton,
-			StaticRegisterNativesAObstacleAssaultGameMode,
-			sizeof(TClass),
-			alignof(TClass),
-			TClass::StaticClassFlags,
-			TClass::StaticClassCastFlags(),
-			TClass::StaticConfigName(),
-			(UClass::ClassConstructorType)InternalConstructor<TClass>,
-			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
-			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
-			&TClass::Super::StaticClass,
-			&TClass::WithinClass::StaticClass
-		);
-	}
-	return Z_Registration_Info_UClass_AObstacleAssaultGameMode.InnerSingleton;
-}
+IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AObstacleAssaultGameMode);
 UClass* Z_Construct_UClass_AObstacleAssaultGameMode_NoRegister()
 {
-	return AObstacleAssaultGameMode::GetPrivateStaticClass();
+	return AObstacleAssaultGameMode::StaticClass();
 }
 struct Z_Construct_UClass_AObstacleAssaultGameMode_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n *  Simple GameMode for a third person game\n */" },
-#endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "ObstacleAssaultGameMode.h" },
 		{ "ModuleRelativePath", "ObstacleAssaultGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Simple GameMode for a third person game" },
-#endif
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
@@ -90,7 +58,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AObstacleAssaultGameMod
 	0,
 	0,
 	0,
-	0x008003ADu,
+	0x008802ACu,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AObstacleAssaultGameMode_Statics::Class_MetaDataParams), Z_Construct_UClass_AObstacleAssaultGameMode_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AObstacleAssaultGameMode()
@@ -101,21 +69,24 @@ UClass* Z_Construct_UClass_AObstacleAssaultGameMode()
 	}
 	return Z_Registration_Info_UClass_AObstacleAssaultGameMode.OuterSingleton;
 }
+template<> OBSTACLEASSAULT_API UClass* StaticClass<AObstacleAssaultGameMode>()
+{
+	return AObstacleAssaultGameMode::StaticClass();
+}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AObstacleAssaultGameMode);
 AObstacleAssaultGameMode::~AObstacleAssaultGameMode() {}
-// ********** End Class AObstacleAssaultGameMode ***************************************************
+// End Class AObstacleAssaultGameMode
 
-// ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h__Script_ObstacleAssault_Statics
+// Begin Registration
+struct Z_CompiledInDeferFile_FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AObstacleAssaultGameMode, AObstacleAssaultGameMode::StaticClass, TEXT("AObstacleAssaultGameMode"), &Z_Registration_Info_UClass_AObstacleAssaultGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AObstacleAssaultGameMode), 2498666185U) },
+		{ Z_Construct_UClass_AObstacleAssaultGameMode, AObstacleAssaultGameMode::StaticClass, TEXT("AObstacleAssaultGameMode"), &Z_Registration_Info_UClass_AObstacleAssaultGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AObstacleAssaultGameMode), 3472239719U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h__Script_ObstacleAssault_319673262(TEXT("/Script/ObstacleAssault"),
-	Z_CompiledInDeferFile_FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h__Script_ObstacleAssault_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h__Script_ObstacleAssault_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_2331031887(TEXT("/Script/ObstacleAssault"),
+	Z_CompiledInDeferFile_FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// ********** End Registration *********************************************************************
-
+// End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
