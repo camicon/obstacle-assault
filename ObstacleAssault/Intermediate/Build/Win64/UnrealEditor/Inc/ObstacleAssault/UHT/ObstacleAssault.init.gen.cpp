@@ -7,27 +7,23 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeObstacleAssault_init() {}
-	OBSTACLEASSAULT_API UFunction* Z_Construct_UDelegateFunction_ObstacleAssault_OnEnemyDied__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_ObstacleAssault;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_ObstacleAssault()
 	{
 		if (!Z_Registration_Info_UPackage__Script_ObstacleAssault.OuterSingleton)
 		{
-			static UObject* (*const SingletonFuncArray[])() = {
-				(UObject* (*)())Z_Construct_UDelegateFunction_ObstacleAssault_OnEnemyDied__DelegateSignature,
-			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ObstacleAssault",
-				SingletonFuncArray,
-				UE_ARRAY_COUNT(SingletonFuncArray),
+				nullptr,
+				0,
 				PKG_CompiledIn | 0x00000000,
-				0xAC0E6EC2,
-				0x043C4F24,
+				0x5355651B,
+				0x555F50E1,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_ObstacleAssault.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_ObstacleAssault.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_ObstacleAssault(Z_Construct_UPackage__Script_ObstacleAssault, TEXT("/Script/ObstacleAssault"), Z_Registration_Info_UPackage__Script_ObstacleAssault, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xAC0E6EC2, 0x043C4F24));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_ObstacleAssault(Z_Construct_UPackage__Script_ObstacleAssault, TEXT("/Script/ObstacleAssault"), Z_Registration_Info_UPackage__Script_ObstacleAssault, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x5355651B, 0x555F50E1));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

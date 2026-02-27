@@ -1,18 +1,17 @@
-"D:/Unreal/Udemy/ObstacleAssault/Source/ObstacleAssault/ObstacleAssaultGameMode.cpp"
-@"D:/Unreal/Udemy/ObstacleAssault/Intermediate/Build/Win64/x64/UnrealEditor/Development/ObstacleAssault/ObstacleAssault.Shared.rsp"
-/FI"D:/Unreal/Udemy/ObstacleAssault/Intermediate/Build/Win64/x64/ObstacleAssaultEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"D:/Unreal/Udemy/ObstacleAssault/Intermediate/Build/Win64/x64/UnrealEditor/Development/ObstacleAssault/Definitions.ObstacleAssault.h"
-/Yu"D:/Unreal/Udemy/ObstacleAssault/Intermediate/Build/Win64/x64/ObstacleAssaultEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"D:/Unreal/Udemy/ObstacleAssault/Intermediate/Build/Win64/x64/ObstacleAssaultEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"D:/Unreal/Udemy/ObstacleAssault/Intermediate/Build/Win64/x64/UnrealEditor/Development/ObstacleAssault/ObstacleAssaultGameMode.cpp.obj"
-/experimental:log "D:/Unreal/Udemy/ObstacleAssault/Intermediate/Build/Win64/x64/UnrealEditor/Development/ObstacleAssault/ObstacleAssaultGameMode.cpp.sarif"
-/sourceDependencies "D:/Unreal/Udemy/ObstacleAssault/Intermediate/Build/Win64/x64/UnrealEditor/Development/ObstacleAssault/ObstacleAssaultGameMode.cpp.dep.json"
+"D:\Unreal\Udemy\obstacle-assault\ObstacleAssault\Source\ObstacleAssault\ObstacleAssaultGameMode.cpp"
+/FI"D:\Unreal\Udemy\obstacle-assault\ObstacleAssault\Intermediate\Build\Win64\x64\ObstacleAssaultEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"D:\Unreal\Udemy\obstacle-assault\ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObstacleAssault\Definitions.ObstacleAssault.h"
+/Yu"D:\Unreal\Udemy\obstacle-assault\ObstacleAssault\Intermediate\Build\Win64\x64\ObstacleAssaultEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"D:\Unreal\Udemy\obstacle-assault\ObstacleAssault\Intermediate\Build\Win64\x64\ObstacleAssaultEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"D:\Unreal\Udemy\obstacle-assault\ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObstacleAssault\ObstacleAssaultGameMode.cpp.obj"
+/experimental:log "D:\Unreal\Udemy\obstacle-assault\ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObstacleAssault\ObstacleAssaultGameMode.cpp.sarif"
+/sourceDependencies "D:\Unreal\Udemy\obstacle-assault\ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObstacleAssault\ObstacleAssaultGameMode.cpp.dep.json"
+@"D:\Unreal\Udemy\obstacle-assault\ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\ObstacleAssault\ObstacleAssault.Shared.rsp"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
 /FC
-/diagnostics:caret
 /c
 /Gw
 /Gy
@@ -40,14 +39,15 @@
 /fp:fast
 /Zo
 /Zp8
-/W4
 /we4456
 /we4458
 /we4459
+/we4668
 /wd4244
 /wd4838
 /TP
 /GR-
+/W4
 /std:c++20
 /Zc:preprocessor
 /wd5054

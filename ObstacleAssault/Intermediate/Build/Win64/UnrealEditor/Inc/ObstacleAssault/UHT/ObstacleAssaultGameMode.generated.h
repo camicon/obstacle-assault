@@ -5,56 +5,50 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "ObstacleAssaultGameMode.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef OBSTACLEASSAULT_ObstacleAssaultGameMode_generated_h
 #error "ObstacleAssaultGameMode.generated.h already included, missing '#pragma once' in ObstacleAssaultGameMode.h"
 #endif
 #define OBSTACLEASSAULT_ObstacleAssaultGameMode_generated_h
 
-#include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
-
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
-
-// ********** Begin Class AObstacleAssaultGameMode *************************************************
-OBSTACLEASSAULT_API UClass* Z_Construct_UClass_AObstacleAssaultGameMode_NoRegister();
-
-#define FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAObstacleAssaultGameMode(); \
 	friend struct Z_Construct_UClass_AObstacleAssaultGameMode_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend OBSTACLEASSAULT_API UClass* Z_Construct_UClass_AObstacleAssaultGameMode_NoRegister(); \
 public: \
-	DECLARE_CLASS2(AObstacleAssaultGameMode, AGameModeBase, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/ObstacleAssault"), Z_Construct_UClass_AObstacleAssaultGameMode_NoRegister) \
+	DECLARE_CLASS(AObstacleAssaultGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/ObstacleAssault"), OBSTACLEASSAULT_API) \
 	DECLARE_SERIALIZER(AObstacleAssaultGameMode)
 
 
-#define FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_15_ENHANCED_CONSTRUCTORS \
-	/** Deleted move- and copy-constructors, should never be used */ \
-	AObstacleAssaultGameMode(AObstacleAssaultGameMode&&) = delete; \
-	AObstacleAssaultGameMode(const AObstacleAssaultGameMode&) = delete; \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AObstacleAssaultGameMode); \
+#define FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	AObstacleAssaultGameMode(AObstacleAssaultGameMode&&); \
+	AObstacleAssaultGameMode(const AObstacleAssaultGameMode&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(OBSTACLEASSAULT_API, AObstacleAssaultGameMode); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AObstacleAssaultGameMode); \
-	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(AObstacleAssaultGameMode) \
-	NO_API virtual ~AObstacleAssaultGameMode();
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AObstacleAssaultGameMode) \
+	OBSTACLEASSAULT_API virtual ~AObstacleAssaultGameMode();
 
 
-#define FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_12_PROLOG
-#define FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_15_GENERATED_BODY \
+#define FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_9_PROLOG
+#define FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_12_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-class AObstacleAssaultGameMode;
-
-// ********** End Class AObstacleAssaultGameMode ***************************************************
+template<> OBSTACLEASSAULT_API UClass* StaticClass<class AObstacleAssaultGameMode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Unreal_Udemy_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h
+#define CURRENT_FILE_ID FID_Unreal_Udemy_obstacle_assault_ObstacleAssault_Source_ObstacleAssault_ObstacleAssaultGameMode_h
+
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
