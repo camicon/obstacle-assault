@@ -11,8 +11,10 @@
     <None Include="..\..\Source\ObstacleAssaultEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.editorconfig" />
     <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\shadertoolsconfig.json" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -130,6 +132,12 @@
     <Filter Include="Source\ObstacleAssault">
       <UniqueIdentifier>{7510F764-2898-357B-8D6A-F4D6F89811EC}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ObstacleAssault\MovingPlatform.cpp">
+      <Filter>Source\ObstacleAssault</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ObstacleAssault\MovingPlatform.h">
+      <Filter>Source\ObstacleAssault</Filter>
+    </ClCompile>
     <None Include="..\..\Source\ObstacleAssault\ObstacleAssault.Build.cs">
       <Filter>Source\ObstacleAssault</Filter>
     </None>
