@@ -16,6 +16,7 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	UE_LOG(LogTemp, Display, TEXT("BeginPlay()"));
 }
 
 // Called every frame
