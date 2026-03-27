@@ -16,8 +16,9 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	UE_LOG(LogTemp, Display, TEXT("MemberFloat: %f"), MemberFloat);
-	UE_LOG(LogTemp, Display, TEXT("MemberInt: %i"), MemberInt);
+	SetActorLocation(MyVector);
+
+	//UE_LOG(LogTemp, Display, TEXT("MemberFloat: %f"), MemberFloat);
 }
 
 // Called every frame
