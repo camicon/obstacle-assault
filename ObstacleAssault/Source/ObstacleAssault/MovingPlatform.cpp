@@ -16,8 +16,6 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	SetActorLocation(MyVector);
-
 	//UE_LOG(LogTemp, Display, TEXT("MemberFloat: %f"), MemberFloat);
 }
 
@@ -26,5 +24,9 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	FVector CurrentLocation = GetActorLocation();
+	CurrentLocation.X += 1;
+
+	SetActorLocation(CurrentLocation);
 }
 
