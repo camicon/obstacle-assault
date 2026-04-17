@@ -16,6 +16,8 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	StartLocation = GetActorLocation();
+
 	//UE_LOG(LogTemp, Display, TEXT("MemberFloat: %f"), MemberFloat);
 }
 
@@ -25,7 +27,7 @@ void AMovingPlatform::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	MovePlatform(DeltaTime);
-	//RotatePlatform(DeltaTime);
+	RotatePlatform(DeltaTime);
 }
 
 void AMovingPlatform::MovePlatform(float DeltaTime)
@@ -35,11 +37,19 @@ void AMovingPlatform::MovePlatform(float DeltaTime)
 	CurrentLocation += PlatformVelocity * DeltaTime;
 
 	SetActorLocation(CurrentLocation);
+
+	DistanceMoved = FVector::Dist(StartLocation, CurrentLocation);
+
+	if (DistanceMoved >= MoveDistance)
+	{
+		PlatformVelocity *= -1;
+		StartLocation = CurrentLocation;
+	}
 }
 
 void AMovingPlatform::RotatePlatform(float DeltaTime)
 {
 	// Rotates the target platform
-	FRotator CurrentRotation = GetActorRotation();
+	//FRotator CurrentRotation = GetActorRotation();
 	//CurrentRotation.eul
 }
